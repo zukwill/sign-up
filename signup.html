@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body>
+    <section class="sign-up"> <!--სექციის დასაწყისი-->
+    <div class="container">   <!--კონტეინერი, რომელშიც მოთავსებულია ყველაფერი-->
+        <h2 class="Sign up text">Sign up here</h2>
+        <form action="signup.php" class="sign-up-form" method="post"> <!--დაკავშირება იმ ველთან სადაც რეგისტრაციის შემდგომ უნდა გადაგვიყვანოს-->
+        <div class="forms-value">
+            <input name="Name" type="text" class="form-control" placeholder="Name"/>
+        </div>
+        <div class="forms-value">
+            <input name="Password" type="password" class="form-control" placeholder="Password"/>
+        </div>
+        <div class="forms-value">
+            <input name="ConfirmPassword" type="password" class="form-control" placeholder="ConfirmPassword"/>
+        </div>
+        <button class="SUBMIT" value="submit">Submit</button></form>
+    </div>
+    </section> <!--სექციის დასასრული-->
+</body>
+</html>
